@@ -3,7 +3,6 @@ import java.sql.DriverManager;
 import java.util.Enumeration;
 
 
-
 public class PrintJDBCDrivers {
     public static void main(String[] args) {
         System.out.println("Nome e versão do drive encontrados");
@@ -22,5 +21,4 @@ public class PrintJDBCDrivers {
         System.out.println("Driver Minor Version: " + minorVersion);
         System.out.println("----------------------------------------");
     }
-
 }
