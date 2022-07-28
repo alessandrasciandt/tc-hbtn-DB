@@ -1,6 +1,6 @@
 package models;
 
-import demo.Produto;
+import entities.Produto;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

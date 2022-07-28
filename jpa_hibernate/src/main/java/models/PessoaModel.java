@@ -1,6 +1,6 @@
 package models;
 
-import demo.Pessoa;
+import entities.Pessoa;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

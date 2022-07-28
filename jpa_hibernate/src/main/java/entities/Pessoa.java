@@ -1,4 +1,4 @@
-package demo;
+package entities;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -20,7 +20,7 @@ public class Pessoa {
     @Column
     private Date dataNascimento;
 
-    Pessoa(){};
+    public Pessoa(){};
 
     public Pessoa(Integer id, String nome, String email, Integer idade, String cpf, Date dataNascimento) {
         this.id = id;

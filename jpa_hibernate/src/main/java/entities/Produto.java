@@ -1,4 +1,4 @@
-package demo;
+package entities;
 
 import javax.persistence.*;
 
@@ -17,7 +17,7 @@ public class Produto {
     @Column
     private boolean status;
 
-    Produto(){}
+    public Produto(){}
 
     public Produto(Integer id, String nome, Integer quantidade, Double preco, boolean status) {
         this.id = id;
