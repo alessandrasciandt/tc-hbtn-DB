@@ -1,6 +1,5 @@
 package models;
 
-import demo.Pessoa;
 import demo.Produto;
 
 import javax.persistence.EntityManager;
